@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_FLIP_IN_X"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="FLIP_IN_X"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.317" />
+
+    <Button
+        android:id="@+id/button_SLIDE_IN_DOWN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SLIDE_IN_DOWN"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.411" />
+
+    <Button
+        android:id="@+id/button_ZOOM_IN_LEFT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ZOOM_IN_LEFT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/button_FADE_IN_DOWN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FADE_IN_DOWN"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.812"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.411" />
+
+    <Button
+        android:id="@+id/button_ROTATE_IN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROTATE_IN"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewSample"
+        app:layout_constraintVertical_bias="0.088" />
+
+    <Button
+        android:id="@+id/button_BOUNCE_IN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BOUNCE_IN"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.982"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.317" />
+
+    <Button
+        android:id="@+id/button_ATTENTION_BOUNCE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="BOUNCE"
+        app:layout_constraintEnd_toStartOf="@+id/button_ATTENTION_PULSE"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/button_Wobble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wobble"
+        app:layout_constraintBottom_toTopOf="@+id/button_ATTENTION_WAVE"
+        app:layout_constraintEnd_toStartOf="@+id/button_ATTENTION_TA_DA"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_ATTENTION_SHAKE"
+        app:layout_constraintTop_toBottomOf="@+id/button_ATTENTION_BOUNCE"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/button_ATTENTION_WAVE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WAVE"
+        app:layout_constraintBottom_toTopOf="@+id/button_ATTENTION_STAND_UP"
+        app:layout_constraintEnd_toStartOf="@+id/button_ATTENTION_FLASH"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_ATTENTION_SWING"
+        app:layout_constraintTop_toBottomOf="@+id/button_ATTENTION_SHAKE"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/button_ATTENTION_SWING"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SWING"
+        app:layout_constraintBottom_toTopOf="@+id/button_ATTENTION_STAND_UP"
+        app:layout_constraintEnd_toStartOf="@+id/button_ATTENTION_WAVE"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_ATTENTION_SHAKE"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/button_ATTENTION_TA_DA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="TA_DA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_Wobble"
+        app:layout_constraintTop_toBottomOf="@+id/button_ATTENTION_RUBERBAND" />
+
+    <Button
+        android:id="@+id/button_ATTENTION_STAND_UP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STAND_UP"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_ATTENTION_FLASH"
+        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_ATTENTION_WAVE"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/button_ATTENTION_SHAKE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHAKE"
+        app:layout_constraintBottom_toTopOf="@+id/button_ATTENTION_SWING"
+        app:layout_constraintEnd_toStartOf="@+id/button_Wobble"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_ATTENTION_BOUNCE"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/button_ATTENTION_RUBERBAND"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="RUBERBAND"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_ATTENTION_PULSE"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/button_ATTENTION_PULSE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PULSE"
+        app:layout_constraintBottom_toTopOf="@+id/button_Wobble"
+        app:layout_constraintEnd_toStartOf="@+id/button_ATTENTION_RUBERBAND"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_ATTENTION_BOUNCE"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/button_ATTENTION_FLASH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="FLASH"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_ATTENTION_WAVE"
+        app:layout_constraintTop_toBottomOf="@+id/button_ATTENTION_TA_DA" />
+
+    <ImageView
+        android:id="@+id/imageViewSample"
+        android:layout_width="189dp"
+        android:layout_height="147dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/gl"
+        android:alpha="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="18dp"
+        android:text="To Grab Users Attention you can use these:"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_ZOOM_IN_LEFT" />
+
+    <Button
+        android:id="@+id/buttonX"
+        android:layout_width="152dp"
+        android:layout_height="61dp"
+        android:text="Button"
+        android:backgroundTint="@color/gg"
+        app:layout_constraintBottom_toTopOf="@+id/button_FLIP_IN_X"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
